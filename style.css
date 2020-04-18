@@ -1,0 +1,26 @@
+/* intro page */
+.body{
+    height: 100%;
+    width: 100%;
+}
+
+.titlecontainer{
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.inhoudcontainer{
+    padding: 25px;
+    padding-bottom: 25px;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.pocpad{
+    padding: 100px;
+
+}
+
+hr{
+    padding: 20px;
+}
