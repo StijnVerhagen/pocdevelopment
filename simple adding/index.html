@@ -1,26 +1,36 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Development Poc's</title>
+    <title>Simple Adding</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/simple adding/style.css">
+    <script src="/simple adding/scripts.js"></script>
+
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/3.1.3/style313.css">
-    <script src="/3.1.3/scripts313.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    
+
     <div class="pocpad">
-      <h3>3.1.3</h3>
-      <img name="slide" width="1250" height="750">
+      <h3>Simple Adding</h3>
+      <p>Voer hier onder een getal tussen de '0' en '50' in. <br>
+        De functie telt alle getallen tot en met het ingevoerde getal bij elkaar op.
+      </p>
+      <input id="input" type="text" placeholder="0-50">
+      <button type="button" id="calculate" onclick=SimpleAdding();>Go!</button>
+        <br>
+        <br>
+      <h4 id="result">Uitkomst= 0</h4>
 
-
-    </div> 
+    </div>
     
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
